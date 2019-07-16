@@ -5,7 +5,7 @@ JavaScript for Automation (JXA) version of Patrick Wardle's tool that searches a
 ```JavaScript
 D00mfist: ~$ osascript -l JavaScript DyLibHijackScan.js
 ```
-# To-DOs
+# To-Dos
 
 * Automate weaponization based on scan results
 * Add ability to scan a selected binary vs all open files (current implementation)
