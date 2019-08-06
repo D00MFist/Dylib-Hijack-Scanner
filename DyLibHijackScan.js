@@ -3,7 +3,7 @@
 Description: This script searchs open applications with dylibs vulnerable to hijacking
 Author: D00mfist
 References: Work inspired by Patrick Wardle's research
-/*
+*/
 ObjC.import('Foundation')
 ObjC.import('stdlib')
 gather = "lsof | tr -s ' ' | cut -d' ' -f9 | sed '/^$/d' | grep '^\/'| sort | uniq"
